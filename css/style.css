@@ -3,6 +3,10 @@
 	font-family: 'Futura';
 	src: url("../fonts/Futura.woff");
 }
+@font-face {
+	font-family: 'Samarkan';
+	src: url("../fonts/Samarkan.TTF");
+}
 
 html,
 body {
@@ -12,6 +16,10 @@ body {
 	font-smoothing: antialiased;
 }
 
+.logo{
+	font-family: 'Samarkan';
+	justify-content: center;
+}
 h1,
 h2,
 h3,
