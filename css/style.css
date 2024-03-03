@@ -210,7 +210,21 @@ ol {
 	background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e2bce', endColorstr='#2dd3aa', GradientType=1);
-	/* IE6-9 */
+}
+
+.site-btn-forget{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	line-height: 16px;
+	min-width: 170px;
+}
+
+.site-btn-match{
+	/* position: relative; */
+	display: inline-block;
+	padding: 1px 30px;
+	min-width: 170px;
 }
 
 /* Image Popup */
@@ -334,7 +348,7 @@ ol {
 .menu-list li a {
 	display: inline-block;
 	font-family: "Futura", sans-serif;
-	font-size: 16px;
+	font-size: 26px;
 	padding: 10px 5px;
 	margin-right: 30px;
 	color: #fff;
@@ -475,12 +489,18 @@ ol {
 	margin-top: 30px;
 	-webkit-box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
 	        box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
+			border-radius: 20px;
 }
 
 .process-step .process-icon {
 	height: 55px;
 	margin-bottom: 30px;
 	padding-top: 5px;
+}
+
+.icon{
+	width:auto;
+	height:4em;
 }
 
 .process-step h4 {
@@ -1337,7 +1357,7 @@ ol {
 
 .contact-form .form-group {
 	position: relative;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .contact-form .form-group span {
@@ -1358,6 +1378,7 @@ ol {
 
 .contact-form .check-form {
 	padding-right: 20px;
+	box-shadow: 3px 3px 10px #aaaaaa84;
 }
 
 .contact-form input,
@@ -1366,8 +1387,11 @@ ol {
 	height: 50px;
 	border: none;
 	border-bottom: 1px solid #ebebeb;
+	border-left: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;
+	border-radius: 30px;
 	font-size: 16px;
-	padding-bottom: 10px;
+	padding: 10px 20px 10px 25px;
 	color: #20509e;
 }
 
